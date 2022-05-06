@@ -11,9 +11,7 @@ pre, code {
 
 body {
   position: relative;
-/*  padding: 2em 4em; */
   font-family: Arvo, sans-serif;
-  font-size: 1.6em;
   hyphens: auto;
 }
 
@@ -76,18 +74,7 @@ hgroup ul > li:before {
   font-size: 12px !important;
 }
 
-#worksonmymachine {
-  background-image: url(./img/worksonmymachine.png);
-  width: 100px;
-  height: 97px;
-  float: left;
-}
-
 @media all and (max-width: 720px) {
-  #worksonmymachine {
-    display: none;
-  }
-
   hgroup > h1 {
     font-size: 300%;
   }
